@@ -1,0 +1,175 @@
+html, body {
+    background-image: linear-gradient(rgb(119, 192, 119), rgb(38, 97, 89));
+    height: 100%;
+    font-family: ‘Open Sans’, sans-serif;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, p {
+    text-align: center;
+    padding: 20px;
+
+}
+
+p, label {
+    font-size: 20px;
+}
+
+.checkbox {
+    font-size: 16px;
+}
+
+form {
+	width: 300px;
+    margin: 15px auto;
+	/*padding: 20px;*/
+}
+
+fieldset {
+	padding: 20px;
+}
+
+legend {
+	font-size: 30px;
+}
+
+label {
+	display: block;
+	padding: 10px 0 5px 0;
+}
+
+table {
+    max-width: 1000px;
+    border-collapse: collapse;
+    border: 1px solid #c9c9c9;
+    margin: 0 auto 20px auto;
+    table-layout:fixed;
+
+}
+
+th {
+    background-color: #ddd;
+    color: #555;
+    padding: 8px 16px; 
+    text-align: center;
+}
+
+td {
+    padding: 5px 16px;
+    max-width:500px;
+    min-width:200px;
+    text-align: left;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+
+tr {
+    border-bottom: 1px solid #c9c9c9;
+}
+
+tr:nth-child(even) {
+    background-color: #b9bcc2;
+}
+
+tr:nth-child(odd) {
+    background-color: #dadada;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+button:hover {
+    background-color: rgb(3, 65, 5);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.backpage:link, a.backpage:visited {
+    background-color: #2a0b44;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: block;
+    width: 100px;
+    margin: auto;
+    position: absolute;
+    left: 10px;
+    border-radius: 8px;
+ }
+
+a.backpage:hover, a.backpage:active {
+    background-color: rgb(7, 18, 112);
+    border-radius: 8px;
+}
+
+a.logout:link, a.logout:visited {
+    background-color: #2a0b44;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: block;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    border-radius: 8px;
+ }
+
+ a.logout:hover, a.logout:active {
+    background-color: rgb(7, 18, 112);
+ }
+
+div.alert{
+    text-align: center;
+}
+
+div.alert p {
+    padding: 0px;
+    display: inline-block;
+}
+
+#reviewsCheckBox {
+    width: 25px;
+    min-width: 0px;
+
+}
+
+#reviewsForm {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#recommend {
+    width: 90px;
+    margin: auto;
+    padding: 0px;
+}
+
+#recommend input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+#recommend input[type=submit]:hover {
+    background-color: rgb(3, 65, 5);
+    cursor: pointer;
+}
